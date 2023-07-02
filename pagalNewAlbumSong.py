@@ -7,10 +7,8 @@ def getSongNameList(user_url):
     # user_url = url
     req = requests.get(url=user_url)
     # print(req.content)
-
     soup = BeautifulSoup(req.content,"html5lib")
     # print(soup.prettify())
-
     songName = soup.find(class_ = "main_page_category_music_txt")
     numberOfSongName = soup.find_all(class_ = "main_page_category_music_txt")
     # numberOfSongName = soup.find_all(class_ = "main_page_category_music_txt")
@@ -30,15 +28,3 @@ def getSongNameList(user_url):
         songName_lst.append(songName_string.strip())
     return songName_lst        
     # print(songName_lst)
-
-
-# getSongNameList("https://pagalnew.com/album/bloody-daddy-2023.html")
-# print(songName_lst)
-
-# print(songName_string)
-# print(actualSongName)
-
-# for name in songName:
-#     print("\n---**---**---**---**---**\n")
-#     actual_songName = 
-#     # print("---**---**---**---**---**")

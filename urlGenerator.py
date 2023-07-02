@@ -39,22 +39,9 @@ def user_songName():
     # print(f"Mainpulated song Name - {manipulated_user_songName}")
 
 
-# Checking user_songName and Importing Files
-# Greet()
-# user_songName()
-
-# generating url on which request have to be passed
-
 
 def url_generator_forFindPage():
     # global final_url
     final_url = principal_url+supplemenrty_url+manipulated_user_songName
     # print(f"url - {final_url}")
     return final_url
-
-
-# url_generator_forFindPage()
-
-
-# requestStatus = requests.get()
-# def connectionStatus():
