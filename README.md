@@ -56,4 +56,5 @@ cd src
 For any questions or suggestions, please feel free to reach out to the project maintainers:
 
 Your Name: sharma.sunil12527@gmail.com
+<br>
 Project Repository: https://github.com/Azur3-bit/AudioManiac
