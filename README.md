@@ -27,7 +27,7 @@ Before running the application, make sure you have the following requirements in
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/SongSaver.git
+   git clone https://github.com/Azur3-bit/Terminal-MusicPlayer.git
     ```
 Navigate to the project directory:
 cd src
